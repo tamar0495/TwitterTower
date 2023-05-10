@@ -1,0 +1,12 @@
+<body>
+<h1>הכנס פרטי משולש</h1>
+<label>גובה</label>
+<input type="number" [(ngModel)]="height"><br><br>
+<label>רוחב</label>
+<input type="number" [(ngModel)]="width"> <br><br>
+
+<button (click)="calcArea()">חשב היקף משולש</button> 
+<button (click)="drawTriangle()">הדפס</button>
+
+<h1 id="message">{{this.message}}</h1>
+</body>

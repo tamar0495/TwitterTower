@@ -1,0 +1,10 @@
+<body>
+    <h1>הכנס פרטי מלבן:</h1>
+<label>גובה</label><br/>
+<input type="number" [(ngModel)]="height"><br/><br/>
+<label>רוחב</label><br/>
+<input type="number" [(ngModel)]="width"><br/><br/>
+
+<button (click)="calc()">חשב שטח או היקף</button>
+<h1>{{this.message}}</h1>
+</body>
