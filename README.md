@@ -1,4 +1,5 @@
 # TwitterTower
+The task was written in angular 14.
 When you first load the app, you'll see two buttons: "Rectangle" and "Triangle". Clicking on either button will take you to a form where you can enter the width and height of the shape.
 
 If you choose "Rectangle", the app will calculate the area of the rectangle wether its scope and display it on the page.
